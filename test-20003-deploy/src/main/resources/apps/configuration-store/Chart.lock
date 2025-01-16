@@ -1,0 +1,6 @@
+dependencies:
+- name: aissemble-configuration-store-chart
+  repository: oci://ghcr.io/jaebchoi
+  version: 1.11.0-SNAPSHOT
+digest: sha256:8f906c589bb1ad1d3535e9947705c4f39353658b7f4507f803202a18b11846d1
+generated: "2025-01-16T15:05:39.477062-05:00"

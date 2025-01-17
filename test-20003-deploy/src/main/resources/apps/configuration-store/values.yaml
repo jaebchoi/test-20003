@@ -24,10 +24,9 @@ aissemble-configuration-store-chart:
     configMap:
       name: configuration-store-quarkus-config
       data:
-        base:
-          spark.properties: |-
-            hive.username: hive1
-            hive.password: hive1
+        spark.properties: |-
+          hive.username: hive1
+          hive.password: hive1
 
   configurationVolume:
     storageType: "custom"

@@ -3,4 +3,4 @@ dependencies:
   repository: oci://ghcr.io/jaebchoi
   version: 1.11.0-SNAPSHOT
 digest: sha256:8f906c589bb1ad1d3535e9947705c4f39353658b7f4507f803202a18b11846d1
-generated: "2025-01-17T11:34:18.049127-05:00"
+generated: "2025-01-17T13:58:34.354209-05:00"

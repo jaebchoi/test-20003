@@ -23,10 +23,7 @@ aissemble-configuration-store-chart:
           mountPath: "/configurations"
     configMap:
       name: configuration-store-quarkus-config
-      sparkProperties:
-        - hive.username=hive
-        - hive.password=hive
-
+      
   configurationVolume:
     storageType: "custom"
     storageClass: ""

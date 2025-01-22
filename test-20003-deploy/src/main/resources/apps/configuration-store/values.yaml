@@ -23,9 +23,6 @@ aissemble-configuration-store-chart:
           mountPath: "/configurations"
     configMap:
       name: configuration-store-quarkus-config
-      baseSparkProperties:
-        - metastore.db.username=hiveNewBase
-        - metastore.db.password=hiveNewBase
   configurationVolume:
     storageType: "custom"
     storageClass: ""

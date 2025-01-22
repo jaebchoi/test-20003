@@ -26,6 +26,9 @@ aissemble-configuration-store-chart:
       baseSparkProperties:
         - metastore.db.username=hiveNewBase
         - metastore.db.password=hiveNewBase
+      envSparkProperties:
+        - metastore.db.username=hiveNewENV
+        - metastore.db.password=hiveNewBase
   configurationVolume:
     storageType: "custom"
     storageClass: ""
